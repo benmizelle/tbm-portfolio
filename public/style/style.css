@@ -1,0 +1,108 @@
+body {
+    background: linear-gradient(black, white);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 70px;
+}
+
+li {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    color: ghostwhite;
+    display: inline-block;
+    font-size: large;
+    margin-top: 25px;
+    margin-right: 50px;
+    padding: 40px;
+}
+
+#profile-img {
+    margin-top: 65px;
+    height:auto;
+    width: auto;
+    max-width: 400px;
+    max-height: 375px;
+}
+
+#linkedin-img {
+    padding: 40px;
+    text-align: center;
+    display: inline-block;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#github-img {
+    padding: 25px;
+    text-align: center;
+    display: inline-block;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    border-radius: 50%;
+    margin-left: 100px;
+    padding: 25px;
+}
+
+#linkedin-img:hover {
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+
+#github-img:hover {
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+
+nav, info {
+    margin-top: 50px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    color: ghostwhite;
+}
+
+.projectsList {
+    display: inline-flex;
+    color: ghostwhite;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    margin-top: 35px;
+}
+
+#aboutMe {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+header {
+    margin-top: 50px;
+    clear: right;
+    color: ghostwhite;
+    font-size: xx-large;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.btn-danger, .btn-primary, .btn-success {
+    float: right;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+a, Link {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    color: ghostwhite;
+}
